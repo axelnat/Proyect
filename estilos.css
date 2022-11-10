@@ -7,6 +7,9 @@ body {
     text-align: center;
     background-color: darkslategrey; 
     enable-background: accumulate;
+    width: 70%;
+    position: relative;
+    left: 300px;
 }  
 
 a {
@@ -18,12 +21,14 @@ a {
     color: black
 }
 .parrafoSecundario {
-    font-size: 40px;
+    font-size: 30px;
     color:blanchedalmond
 }
 .centrar {
+    position: relative;
     display: inline;
     float: left;
+    width: 50%;
 }
 
 div { 
@@ -41,4 +46,50 @@ nav li {
     border: 1px solid black;
     padding: 10px;
     margin: 5px;
+}
+
+.rojo,
+.negro,
+.verde,
+.amarillo {
+    height: 200px;
+    width: 200px;
+
+}
+.rojo {
+    background-color: red;
+    position: relative;
+    top: 205px;
+    bottom: 0;
+    border-radius: 90%;
+    border-top: 75px solid cornflowerblue;
+    border-bottom: 75px solid cornsilk;
+    border-left: 75px yellow;
+    
+
+}
+.negro {
+    background-color: black;
+    position: relative;
+    left: 80%;
+    top: 0;
+    width: 80px;
+    height: 50px;
+    border: 30px solid darkslategrey;
+    border-bottom: 30px solid greenyellow;
+
+}
+.verde {
+    background-color: green;
+    position: relative;
+    left: 80%;
+    top: 200px;
+    
+
+}
+.amarillo{
+    background-color: yellow;
+    position: relative;
+  
+
 }
